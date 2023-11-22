@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/f411181642.js"
+			crossorigin="anonymous"
+		></script>
+
+		<title>Made Asthito Remdial</title>
+	</head>
+	<body>
+		<header>
+			<h1>Asthito's Newsletter Subscription</h1>
+		</header>
+
+		<main>
+			<section class="subscription">
+				<div class="box">
+					<div class="content-left">
+						<img src="./assets/img/half-background.jpeg" alt="" />
+					</div>
+					<div class="content-right">
+						<div class="content-main flex-col-center">
+							<h1>TECART INSIDER</h1>
+							<h2>
+								We are organization base on Udayana University, we share our
+								perspective about the world to student in engineering faculty
+							</h2>
+							<h2 id="success" class="hidden">THANKS FOR SUBSCRIBE !!!</h2>
+						</div>
+						<div class="content-input" id="content-input">
+							<div class="content-list flex-col-center">
+								<div class="list">
+									<div class="list-icon">
+										<i class="fa-solid fa-check"></i>
+									</div>
+									<p>
+										Mainly talk programming, ui/ux, networking, business
+										intelligent.
+									</p>
+								</div>
+								<div class="list">
+									<div class="list-icon">
+										<i class="fa-solid fa-check"></i>
+									</div>
+									<p>Analyzing with AI, with comprehensive algorithm.</p>
+								</div>
+								<div class="list">
+									<div class="list-icon">
+										<i class="fa-solid fa-check"></i>
+									</div>
+									<p>And many more !!!</p>
+								</div>
+							</div>
+
+							<div class="input-label">
+								<label for="email">Email Address :</label>
+								<p id="error" class="hidden">Valid Email Required !</p>
+							</div>
+							<br />
+							<input type="text" id="email" name="email" />
+							<br />
+							<button id="submit-btn" class="submit-btn" onclick="subscribe()">
+								Subscribe to Monthly Newsletter
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<h1>@ Made Asthito Y.P 2023</h1>
+		</footer>
+
+		<!-- Main JS -->
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+	</body>
+</html>
