@@ -288,7 +288,7 @@ header h1 {
 }
 
 .content-input input {
-	margin-block: 1rem;
+	margin-bottom: 1rem;
 	width: 100%;
 	height: 3rem;
 	padding: var(--padding-btn);
@@ -296,6 +296,11 @@ header h1 {
 	background-color: #afcfda;
 	border-radius: var(--radius-btn);
 }
+
+.content-input input.input-danger {
+	background-color: #FFB4B4;
+}
+
 
 .content-input input:focus {
 	outline: none;
@@ -324,6 +329,7 @@ header h1 {
 	color: var(--color-white);
 	background-color: #2777c2;
 }
+
 
 /* End Content Input */
 
